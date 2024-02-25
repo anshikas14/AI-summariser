@@ -75,15 +75,15 @@ const Demo = () => {
 
           <input
             type='url'
-            placeholder='Paste the article link'
+            placeholder='Whats your question today?'
             value={article.url}
             onChange={(e) => setArticle({ ...article, url: e.target.value })}
             onKeyDown={handleKeyDown}
             required
-            className='url_input peer' // When you need to style an element based on the state of a sibling element, mark the sibling with the peer class, and use peer-* modifiers to style the target element
+            className='url_input peer'
           />
           <button
-            type='submit'
+            type='chat'
             className='submit_btn peer-focus:border-gray-700 peer-focus:text-gray-700 '
           >
             <p>↵</p>
@@ -129,7 +129,7 @@ const Demo = () => {
           article.summary && (
             <div className='flex flex-col gap-3'>
               <h2 className='font-satoshi font-bold text-gray-600 text-xl'>
-                Article <span className='blue_gradient'>Summary</span>
+                Query <span className='blue_gradient'>Answer</span>
               </h2>
               <div className='summary_box'>
                 <p className='font-inter font-medium text-sm text-gray-700'>

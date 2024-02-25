@@ -11,21 +11,22 @@ const Hero = () => {
         <button
           type='button'
           onClick={() =>
-            window.open("https://github.com/thealonemusk/AI-summariser", "_blank")
+            window.open("https://github.com/anshikas14", "_blank")
           }
           className='black_btn'
         >
-          GitHub
+          SignUp
         </button>
       </nav>
 
       <h1 className='head_text'>
-        Summarize Articles with <br className='max-md:hidden' />
-        <span className='orange_gradient '>OpenAI GPT-4</span>
+      Ever heard of Chatgpt for the
+ <br className='max-md:hidden' />
+        <span className='orange_gradient '> Indian Penal Code(IPC)?
+</span>
       </h1>
       <h2 className='desc'>
-        Simplify your reading with Summize, an open-source article summarizer
-        that transforms lengthy articles into clear and concise summaries
+      A conversational chatbot that tackles the critical challenge of bridging the gap between individuals and their legal rights.
       </h2>
     </header>
   );
